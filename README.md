@@ -8,7 +8,8 @@ To develop a convolutional autoencoder for image denoising application.
 
 ## Convolution Autoencoder Network Model
 
-Include the neural network model diagram.
+![image](https://user-images.githubusercontent.com/112486797/201571991-6d0dbae2-9c33-46cb-838b-615994991d5e.png)
+
 
 ## DESIGN STEPS
 
@@ -30,10 +31,12 @@ Pass test data for validating manually.
 #### Step 6:
 Plot the predictions for visualization.
 
-
+ 
+ 
 ## PROGRAM
-Developed by: Swetha.K.P
-Register no.: 212220230053
+```
+Developed by: K.GARSHANKUMAR
+Register no.: 212219040034
 
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -112,17 +115,21 @@ for i in range(1, n + 1):
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 plt.show()
+```
 
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![image](https://user-images.githubusercontent.com/112486797/201571843-6e34837e-a811-4b28-aae0-dee42a0913ec.png)
+
 
 ### Original vs Noisy Vs Reconstructed Image
 
-Include a few sample images here.
+
+
 
 
 
 ## RESULT
+Thus, a Convolutional Auto Encoder for Denoising was sucessfully implemented.
