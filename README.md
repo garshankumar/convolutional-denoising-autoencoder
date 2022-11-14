@@ -12,13 +12,24 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 
-### STEP 1:
+### Step 1:
+Import the necessary libraries and dataset.
 
-### STEP 2:
+### Step 2:
+Load the dataset and scale the values for easier computation.
 
-### STEP 3:
+### Step 3:
+Add noise to the images randomly for both the train and test sets.
 
-Write your own steps
+### Step 4:
+Build the Neural Model using Convolutional, Pooling and Up Sampling layers. Make sure the input shape and output shape of the model are identical.
+
+### Step 5:
+Pass test data for validating manually.
+
+#### Step 6:
+Plot the predictions for visualization.
+
 
 ## PROGRAM
 
